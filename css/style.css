@@ -1,0 +1,115 @@
+/* Esto es css/style.css */
+body {
+    font-family: Arial, sans-serif;
+    
+}
+
+h1 h4{
+    text-align: justify;
+}
+
+header, footer {
+    background-color: #d41e1e;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;  /* Ajusta el tamaño de la fuente si es necesario */
+}
+nav a {
+    color: #000000; /* black */
+    font-size: 40px; /* Cambiar el tamaño de la fuente */
+    font-weight: bold;
+}
+ /* Color de los enlaces al pasar el ratón */
+ nav a:hover {
+    color: #050c05; /* black */
+}
+
+ /* Color de los enlaces visitados */
+nav a:visited {
+    color: #ecda30; /* yellow */
+}
+
+/* Color de los enlaces activos */
+nav a:active {
+    color: #ff0000; /* OrangeRed */
+}
+
+aside {
+    padding: 40px;
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    max-width: 500px; /* Ajusta el tamaño según sea necesario */
+    margin: 10px auto; /* Centra el aside si es necesario */
+}
+
+aside ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+aside ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+aside ul li img {
+    max-width: 60px;  /* Ajusta el tamaño según sea necesario */
+    max-height: 60px; /* Ajusta el tamaño según sea necesario */
+    margin-right: 20px;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px; /* Ajusta el tamaño de la fuente según sea necesario */
+    flex: 1; /* Permite que el texto ocupe el espacio restante */
+}
+
+aside h2 {
+    margin-bottom: 15px;
+}
+
+aside p {
+    margin-top: 15px;
+}
+aside ul li img {
+    width: initial;  /* Ajusta este valor según el tamaño deseado */
+    height: 100%;  /* Mantiene la proporción original de la imagen */
+    margin-right: auto;  /* Espacio entre la imagen y el texto */
+}
+.carousel-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0px; /* Separación entre filas */
+}
+.carousel-container {
+    display: flex; /* Utilizar flexbox para colocar los carruseles uno al lado del otro */
+    justify-content: space-between; /* Espacio uniforme entre los carruseles */
+    margin-bottom: 15px;
+}
+.carousel-wrapper {
+    width: 500px; /* Ancho de cada carrusel */
+    margin-right: 10px;
+}
+.carousel-title {
+    text-align: center; /* Centrar el texto del título */
+}
